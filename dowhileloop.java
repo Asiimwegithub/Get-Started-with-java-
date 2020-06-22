@@ -1,15 +1,24 @@
-class dowhileloop {
-   public static void main(String[] args) {
-      
-      for (int i = 1; i <= 10; ++i) {      
-         if (i == 4) {
-            continue;
-         }    
+//Asiimwe Delick
+//18/2/314/E/245
 
-         if(i==9){
-         	continue;
-         }  
-         System.out.println(i);
-      }   
-   }
-}
+public class dowhileloop{
+	public static void main(String[]args){
+		int y =9;
+		do{
+			//System.out.println(y);
+			y = y+3;
+			if(y==12){
+				
+			}
+			else(y==18){
+				continue;
+			}
+			
+		}
+
+		while(y<=24);
+	}
+}+
+
+
+
